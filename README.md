@@ -10,3 +10,5 @@ ros1_pepper_navreqs:
     version: master
     
 ```
+  
+  NOTE: There are several other dependencies, but because of conflicts of the packages tf2_sensor_msgs and visualization_msgs, this repository was created to avoid those conflicts. This means that you do not need to add tf2_sensor_msgs and visualization_msgs at all if you instead add this repository to your repos list.
